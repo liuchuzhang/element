@@ -1,5 +1,24 @@
 ## Changelog
 
+### 2.4.9
+
+*2018-10-26*
+
+- El parámetro de Form's `clearValidate` soporta cadenas, #12990 (by @codinglobster)
+- Se agregó el atributo `type` para Badge, #12991
+- Ser puede usar scoped-slot para personalizar el encabezado de la columna de Table #13012 (por @ivanseidel)
+- Arreglado que el input box de Select no se podia escrbir en IE, #13034 (by @GaliMU)
+- La opción Seleccionar no se cerraba cuando el espacio era insuficiente, #12329 (by @akki-jat)
+- Cuando se expande la lista desplegable de Seleccionar, el icono de flecha también se mostrará correctamente, #12353 (by @firesh)
+- Arreglado que el atributo size de Select no funcionaba, #13070
+- Select multiple values pueden ser limpiado en lote, #13049 (by @ZSkycat)
+- Arreglado el último TabNav que no se podía borrar, #13039
+- Arreglado que la etiqueta del TabNav no se mostraba correctamente, #13178
+- Añadido title slot para Alert, #13082 (by @Kingwl)
+- Corregido un problema por el cual el contenido del tooltip en Table era incorrecto, #13159 (by @elfman)
+- Optimizada la animación de Upload cuando el archivo es eliminado, #12987
+- Ajustado el estilo de InputNumber cuando no se muestra el botón de control, #13052
+
 ### 2.4.8
 
 - No se muestra el contorno cuando Switch está enfocado, #12771
